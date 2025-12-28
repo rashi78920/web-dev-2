@@ -1,0 +1,138 @@
+/* GLOBAL */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body{
+  color:#333;
+}
+
+/* NAVBAR */
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 80px;
+  background:white;
+  box-shadow:0 3px 10px rgba(0,0,0,0.1);
+  position:sticky;
+  top:0;
+}
+
+.logo{
+  font-size:32px;
+  font-weight:700;
+  color:#ff3c3c;
+}
+
+nav ul{
+  display:flex;
+  gap:30px;
+  list-style:none;
+}
+
+nav ul li a{
+  text-decoration:none;
+  color:#444;
+}
+
+.btns button{
+  padding:10px 20px;
+  border-radius:20px;
+  border:none;
+  cursor:pointer;
+}
+
+.login{
+  border:2px solid #ff3c3c;
+  background:transparent;
+  color:#ff3c3c;
+}
+
+.signup{
+  background:#ff3c3c;
+  color:white;
+}
+
+/* HERO */
+.hero{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:80px;
+  background:#ffe2e2;
+}
+
+.hero h1{
+  font-size:50px;
+}
+
+.hero button{
+  margin-top:20px;
+  padding:12px 30px;
+  background:#ff3c3c;
+  color:white;
+  border:none;
+  border-radius:30px;
+}
+
+/* SEARCH BAR */
+.search-bar{
+  width:80%;
+  margin:30px auto;
+  display:flex;
+  gap:20px;
+}
+
+.search-bar input,
+.search-bar select{
+  flex:1;
+  padding:12px;
+}
+
+/* CATEGORIES */
+.categories{
+  text-align:center;
+  padding:50px;
+}
+
+.category-items{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+}
+
+.category-card{
+  padding:30px;
+  background:#fff;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  border-radius:15px;
+}
+
+/* RESTAURANTS */
+.restaurants{
+  padding:50px;
+}
+
+.rest-list{
+  display:flex;
+  gap:25px;
+}
+
+.rest-card{
+  padding:30px;
+  background:white;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  border-radius:15px;
+}
+
+/* FOOTER */
+footer{
+  background:black;
+  color:white;
+  text-align:center;
+  padding:40px;
+}
